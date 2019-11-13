@@ -5,7 +5,7 @@
 http://120.79.47.194:22222/swagger/ui/index#/
 # 使用说明
 1.通过/api/Login/GetQrCode接口获取二维码，可以设置代理IP，如没有，可前三个参数都设置为""<br/>
-2.去http://imgbase64.duoshitong.com/进行base64转码，生成二维码图片<br/>
+2.去http://imgbase64.duoshitong.com/ 进行base64转码，生成二维码图片<br/>
 3.扫码登陆，之后调用/api/Login/CheckLogin/{uuid}，传入上个接口生成的Uuid，会返回wxId和用户信息<br/>
 4.后续通过wxId进行其他接口的调用<br/>
 # 接口文档
